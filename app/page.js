@@ -27,28 +27,6 @@ export default function Home() {
         </p>
       </section>
 
-      <section style={{padding:"40px 20px"}}>
-        <h2 style={{textAlign:"center"}}>Request a Free Quote</h2>
-
-        <form style={{maxWidth:"500px",margin:"auto",display:"grid",gap:"10px"}}>
-          <input placeholder="Name" style={{padding:"10px"}} />
-          <input placeholder="Phone" style={{padding:"10px"}} />
-          <input placeholder="Email" style={{padding:"10px"}} />
-          <textarea placeholder="Tell us about your windows" style={{padding:"10px"}} />
-
-          <button
-            style={{
-              padding:"12px",
-              background:"#2563eb",
-              color:"white",
-              border:"none"
-            }}
-          >
-            Submit
-          </button>
-        </form>
-      </section>
-
       <footer style={{background:"#0f172a",color:"#cbd5f5",textAlign:"center",padding:"20px"}}>
         © {new Date().getFullYear()} All Clear Window Washing
       </footer>
